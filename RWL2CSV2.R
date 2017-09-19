@@ -7,9 +7,6 @@ setwd("C:/Users/Twitch/Downloads/R-Stuff-From-Aaron")
 #get list of RWL files in directory
 fileNames<-Sys.glob("*.rwl")
 
-#find total amount of files
-fileSize<-length(fileNames)
-
 #for loop to read files in, convert them and write them to CSV files.
 for (fileName in fileNames) {
 	
