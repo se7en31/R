@@ -7,9 +7,6 @@ setwd("C:/Users/Twitch/Downloads/R-Stuff-From-Aaron/cores2016")
 #get list of RWL files in directory
 fileNames<-Sys.glob("*.rwl")
 
-#find total amount of files
-fileSize<-length(fileNames)
-
 #set Base Var for later use in for loop, and initialize list
 x<-1
 my_data<-list()
